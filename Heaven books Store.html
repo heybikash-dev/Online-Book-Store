@@ -1,0 +1,272 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<title>ONLINE STORE BOOK</title>
+</head>
+<//--Header Section--//>
+<body>
+    <center>
+
+<h1> <strong> Heaven Book Store </strong></h1>
+<p><em> <u> Your Heaven Books Store Here </u><em> </p>
+</center>
+<img src="Gemini_Generated_Image_8ave4f8ave4f8ave.jfif"  width="150" height="150" alt="Book Logo">
+<nav>
+<ul>
+
+
+<li> <a href=" #Home"> Home</a></li>
+<li> <a href=" #Categories"> Categories</a></li>
+<li> <a href=" #Catalogue"> Book Catalogue</a></li>
+<li> <a href=" #Details"> Book Details </a></li>
+<li> <a href=" #Order">Order Form</a></li>
+<li> <a href=" #Newsletter"> Newsletter</a></li>
+
+</ul>
+</nav>
+
+<form action="/search" method="get">
+<label for ="search"> Search Books:</label>
+<input type="search"id="search" name="q" placeholder="Search by title, author">
+<button type="submit">Search</button>
+</form>
+</header>
+
+
+<hr>
+<!-- CATEGORIES SECTION -->
+<section id="Categories">
+    <h2>Book Categories</h2>
+    <ul>
+        <li><a href="#fiction">Fiction</a></li>
+        <li><a href="#programming">Programming</a></li>
+        <li><a href="#business">Business</a></li>
+        <li><a href="#science">Science</a></li>
+    </ul>
+</section>
+
+<!-- BOOK CATALOGUE -->
+<section id="Catalogue">
+        <h2>Book Catalogue</h2>
+        <table border="1" cellpadding="4" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Book</th>
+                    <th>Author</th>
+                    <th>Category</th>
+                    <th>Price</th>
+                    <th>Availability</th>
+                </tr>
+            </thead>
+            
+
+                <tbody>
+                <tr>
+                    <td>The Silent Orchard</td>
+                    <td>Meera Kapoor</td>
+                    <td>Fiction</td>
+                    <td>₹399</td>
+                    <td>In Stock</td>
+             </tr>
+                <tr>
+                    <td>Clean Code Habits</td>
+                    <td>Robert A. Fenwick</td>
+                    <td>Programming</td>
+                    <td>₹649</td>
+                    <td>In Stock</td>
+             </tr>
+                <tr>
+                    <td>The Lean Startup Playbook</td>
+                    <td>Nisha Verma</td>
+                    <td>Business</td>
+                    <td>₹499</td>
+                    <td>Out of Stock</td>
+             </tr>
+                <tr>
+                    <td>Atomic Focus</td>
+                    <td>David Lin</td>
+                    <td>Self-help</td>
+                    <td>₹349</td>
+                    <td>In Stock</td>
+                </tr>
+            <tr>
+                    <td>The Quantum Garden</td>
+                    <td>Dr. Anil Rao</td>
+                    <td>Science</td>
+                    <td>₹549</td>
+                    <td>In Stock</td>
+            </tr>
+                <tr>
+                    <td>Whispers of the Old City</td>
+                    <td>Farah Sheikh</td>
+                    <td>Fiction</td>
+                    <td>₹299</td>
+                    <td>In Stock</td>
+                </tr>
+                <tr>
+                    <td>Mastering Python Basics</td>
+                    <td>Steve Ohanian</td>
+                    <td>Programming</td>
+                    <td>₹599</td>
+                    <td>In Stock</td>
+                </tr>
+                <tr>
+                    <td>Negotiate to Win</td>
+                    <td>Karan Malhotra</td>
+                    <td>Business</td>
+                    <td>₹449</td>
+                    <td>Out of Stock</td>
+                </tr>
+                <tr>
+                    <td>The Mindful Morning</td>
+                    <td>Priya Nair</td>
+                    <td>Self-help</td>
+                    <td>₹299</td>
+                    <td>In Stock</td>
+                </tr>
+                <tr>
+                    <td>Journey to the Edge of Space</td>
+                    <td>Dr. Elena Cruz</td>
+                    <td>Science</td>
+                    <td>₹699</td>
+                    <td>In Stock</td>
+                </tr>
+                <tr>
+                    <td>The Last Lighthouse</td>
+                    <td>Thomas Reyes</td>
+                    <td>Fiction</td>
+                    <td>₹399</td>
+                    <td>In Stock</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+ 
+    <hr>            
+
+    <!-- BOOK DETAILS -->
+     <section id="Details">
+        <h2>Book Details</h2>
+ 
+        <article id="fiction">
+            <h3>The Silent Orchard</h3>
+            <img src="silent-orchard-cover.jpg" alt="Cover of The Silent Orchard" width="150">
+            <p><strong>Author:</strong> Meera Kapoor</p>
+            <p><em>A haunting story of a family estate and the <u>secrets</u> buried beneath its orchard trees, spanning three generations.</em></p>
+            <p><strong>Price:</strong> ₹399</p>
+            <p><strong>Rating:</strong> 4.5 / 5</p>
+            <p><a href="#order-form">Buy Now</a></p>
+        </article>
+         <article id="programming">
+            <h3>Clean Code Habits</h3>
+            <img src="clean-code-cover.jpg" alt="Cover of Clean Code Habits" width="150">
+            <p><strong>Author:</strong> Robert A. Fenwick</p>
+            <p>A practical guide to writing <strong>readable</strong>, <em>maintainable</em>, and efficient code for everyday developers.</p>
+            <p><strong>Price:</strong> ₹649</p>
+            <p><strong>Rating:</strong> 4.8 / 5</p>
+            <p><a href="#order-form">Buy Now</a></p>
+        </article>
+ 
+        <article id="business">
+            <h3>The Lean Startup Playbook</h3>
+            <img src="lean-startup-cover.jpg" alt="Cover of The Lean Startup Playbook" width="150">
+            <p><strong>Author:</strong> Nisha Verma</p>
+            <p>A step-by-step framework for launching and scaling a startup with <strong>minimal</strong> resources and <em>maximum</em> validation.</p>
+            <p><strong>Price:</strong> ₹499</p>
+            <p><strong>Rating:</strong> 4.2 / 5</p>
+            <p><a href="#order-form">Buy Now</a></p>
+        </article>
+ 
+        <article id="Self-help">
+            <h3>Atomic Focus</h3>
+            <img src="atomic-focus-cover.jpg" alt="Cover of Atomic Focus" width="150">
+            <p><strong>Author:</strong> David Lin</p>
+            <p>Small, <em>science-backed</em> habits to help you build lasting focus and beat everyday distraction.</p>
+            <p><strong>Price:</strong> ₹349</p>
+            <p><strong>Rating:</strong> 4.6 / 5</p>
+            <p><a href="#order-form">Buy Now</a></p>
+        </article>
+ 
+        <article id="science">
+            <h3>The Quantum Garden</h3>
+            <img src="quantum-garden-cover.jpg" alt="Cover of The Quantum Garden" width="150">
+            <p><strong>Author:</strong> Dr. Anil Rao</p>
+            <p>An accessible dive into <strong>quantum mechanics</strong>, explained through everyday analogies and vivid illustrations.</p>
+            <p><strong>Price:</strong> ₹549</p>
+            <p><strong>Rating:</strong> 4.7 / 5</p>
+            <p><a href="#order-form">Buy Now</a></p>
+        </article>
+    </section>
+    <hr>
+<!-- CUSTOMER REVIEWS  -->
+ <section id="reviews">
+        <h2>Customer Reviews</h2>
+ 
+        <article>
+            <header>
+                <h4>Bikash Kumar</h4>
+                <p>Rating: ★★★★★ (5/5)</p>
+                <time datetime="2026-08-12">August 12, 2026</time>
+            </header>
+            <p>"The Silent Orchard" kept me hooked till the last page. Beautifully written and emotionally rich.</p>
+        </article>
+
+        
+        <article>
+            <header>
+                <h4>Rohan Thakur</h4>
+                <p>Rating: ★★★★☆ (4/5)</p>
+                <time datetime="2026-07-28">July 28, 2026</time>
+            </header>
+            <p>"Clean Code Habits" is a must-read for any beginner developer. Some chapters felt a bit repetitive though.</p>
+        </article>
+ 
+        <article>
+            <header>
+                <h4>Komal Sah</h4>
+                <p>Rating: ★★★★★ (5/5)</p>
+                <time datetime="2026-09-02">September 2, 2026</time>
+            </header>
+            <p>Fast delivery and great packaging. "Atomic Focus" has genuinely helped me build better study habits.</p>
+        </article>
+
+
+        <!-- ORDER FORM -->
+         <form>
+            <section id="Order">
+        <h2>Order Form</h2>
+        
+         </form>
+         <hr>
+         
+
+
+
+
+
+
+         <!-- NEWSLETTER  -->
+          <section id="Newsletter">
+        <h2>Subscribe to Our Newsletter</h2>
+        <form action="/subscribe" method="post">
+            <label for="newsletter-email">Email Address:</label>
+            <input type="email" id="newsletter-email" name="subscriber_email" placeholder="you@example.com" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+    <hr>
+
+    <!-- FOOTER SECTION -->
+    <h2>ABOUT US:</h2>
+    <address>
+        <a href="mailto: heavenbook@gmail.com">heavenbook@gmail.com</a>
+        <br>
+        <a href="tel: +918292118781">(+91) 8292118781</a>   
+    </address>
+ 
+    <hr>
+</body>
+</html>
